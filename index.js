@@ -7,3 +7,13 @@ for(var i = 1; i < 8; i++){
     string += "#";
     console.log(string);
 }
+
+console.log("---------");
+
+let str = "";
+let num = 1;
+while(num < 8){
+    str += "#";
+    num += 1;
+    console.log(str)
+}
