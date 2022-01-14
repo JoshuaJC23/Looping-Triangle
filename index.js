@@ -1,3 +1,11 @@
+var div = document.getElementById("div");
+div.textContent = "Hello Everyone";
+
+var newDiv = document.createElement("p");
+newDiv.textContent = "My name is Thanos"
+
+div.appendChild(newDiv);
+
 // create a variable with an empty string to store the results
 var string = "";
 
@@ -6,6 +14,9 @@ var string = "";
 for(var i = 1; i < 8; i++){
     string += "#";
     console.log(string);
+    var triangle = document.createElement("p");
+    triangle.textContent = string;
+    div.appendChild(triangle);
 }
 
 console.log("---------");
@@ -17,3 +28,7 @@ while(num < 8){
     num += 1;
     console.log(str)
 }
+
+
+
+
